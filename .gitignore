@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+*.key
+
+# Data (large files: link to the source in the README instead)
+# data/raw/
+
+# Trained models and large files
+*.model
+*.vocab
+*.pkl
+*.bin
+*.safetensors
+*.h5
+*.keras
+
+# Hugging Face and other caches
+.cache/
+huggingface/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
